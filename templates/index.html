@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/main.css?v=2">
+    <title>Smart HVAC System</title>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="card">
+            <h3>Temperatura</h3>
+            <div class="valoare"><span id="temp">--</span></div>
+        </div>
+        <div class="card">
+            <h3>Umiditate</h3>
+            <div class="valoare"><span id="umid">--</span></div>
+        </div>
+        <div class="card">
+            <h3>Prag Temperatura</h3>
+            <div class="valoare"><span id="prag_temp">--</span> C</div>
+        </div>
+        <div class="card">
+            <h3>Prag Umiditate</h3>
+            <div class="valoare"><span id="prag_umid">--</span> %</div>
+        </div>
+        <div class="card">
+            <h3>Stare LED Temp</h3>
+            <div id="led" class="indicator-led"><span class="mesaj-led"></span></div>
+        </div>
+        <div class="card">
+            <h3>Stare LED Umid</h3>
+            <div id="led_umid" class="indicator-led"><span class="mesaj-led"></span></div>
+        </div>
+    </div>
+    <script src="../static/main.js?v=2"></script>
+</body>
+</html>
